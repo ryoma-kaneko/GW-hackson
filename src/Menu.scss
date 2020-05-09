@@ -1,0 +1,34 @@
+.main-area-pc {
+    .main-wrap {
+        max-width: 1600px;
+        margin: 0 auto;
+        .menu-area {
+            background-color: #222;
+            padding: 0 48px 36px;
+            .menu-box {
+                .title-box {
+                    text-align: center;
+                    .title {
+                        font-size: 36pt;
+                        color: #efeff0;
+                        margin: 0;
+                    }
+                }
+            }
+            .content-box {
+                
+                background-color: #efeff1;
+                height: 240px;
+                width: 100%;
+                border-radius: 16px;
+                table {
+                    margin: 0 auto;
+                    padding-top: 5%;
+                }
+                th {
+                    padding-right: 50px;
+                }
+            }
+        }
+    }
+}

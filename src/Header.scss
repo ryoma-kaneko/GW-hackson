@@ -1,0 +1,44 @@
+.main-area-pc {
+  header {
+    // background-color: #ccc;
+    height: 72px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    color: white;
+    z-index: 10;
+    &.background-color-on {
+      background-color: white;
+      color: black;
+      box-shadow: 0px -4px 12px 2px #999;
+    }
+    &.display-on {
+      display: block;
+    }
+    &.display-off {
+      display: none;
+    }
+    .content-area {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 48px;
+      .store-name-box {
+        line-height: 72px;
+        font-size: 28px;
+        font-weight: 800;
+      }
+      .nav-list-box {
+        .nav-box-item {
+          line-height: 72px;
+          font-size: 18px;
+          font-weight: 400;
+          padding: 0 12px;
+          &:hover {
+            color: #aaa;
+          }
+        }
+      }
+    }
+  }
+}

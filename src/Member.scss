@@ -1,0 +1,62 @@
+.main-area-pc {
+    .main-wrap {
+        max-width: 1600px;
+        margin: 0 auto;
+        .member-area {
+            background-color: #efeff0;
+            padding: 0 48px 36px;
+            text-align: center;
+            .member-box {
+                padding: 48px 0;
+                .title-box {
+                    // background-color: #373f50;
+                    padding-bottom: 28px;
+                    .title {
+                        font-size: 42px;
+                        color: #373f50;
+                        margin: 0;
+                        padding: 36px;
+                        border-bottom: solid 1px rgb(213, 218, 223);
+                    }
+                }
+                .flex-members-area {
+                    padding: 12px 0;
+                    // display: flex;
+                    display: flex;
+                    justify-content: center;
+                    .member-card-box {
+                        background-color: white;
+                        width: 28vw;
+                        max-width: 350px;
+                        min-width: 270px;
+                        display: inline-block;
+                        margin: 0 12px;
+                        .icon-box {
+                            // background-color: yellow;
+                            height: 180px;
+                            align-items: center;
+                            .icon {
+                                display: inline-block;
+                                background-color: rgb(255, 240, 252);
+                                height: 100px;
+                                width: 100px;
+                                border-radius: 50px;
+                                margin: 72px auto 0;
+                            }
+                        }
+                        .name-box {
+                            font-size: 24px;
+                            font-weight: 700;
+                            padding: 12px 0;
+                        }
+                        .description-box {
+                            height: 160px;
+                            padding: 0 24px 12px;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
