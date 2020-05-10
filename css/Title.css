@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+.main-area-pc .main-wrap {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.main-area-pc .main-wrap .title-area {
+  position: relative;
+  height: 70vh;
+  min-height: 600px;
+  width: 100%;
+}
+
+.main-area-pc .main-wrap .title-area .image-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.main-area-pc .main-wrap .title-area .image-box .image {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main-area-pc .main-wrap .title-area .title-box {
+  color: white;
+  position: absolute;
+  top: 220px;
+  left: 0;
+  right: 0;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+.main-area-pc .main-wrap .title-area .title-box .text-box {
+  display: inline-block;
+  border-bottom: solid 1px #ddd;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 80px 24px;
+}
+
+.main-area-pc .main-wrap .title-area .title-box .text-box .title {
+  margin: 0;
+  font-size: 56px;
+}
+
+.main-area-pc .main-wrap .title-area .title-box .text-box .sub-title {
+  margin: 0;
+  font-size: 20px;
+  padding: 0 0 0;
+}
+
+.main-area-pc .main-wrap .title-area .gradient-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  height: 200px;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(black));
+  background: linear-gradient(rgba(0, 0, 0, 0), black);
+}
+/*# sourceMappingURL=Title.css.map */

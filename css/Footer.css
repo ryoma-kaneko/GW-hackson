@@ -1,0 +1,55 @@
+.main-area-pc footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  line-height: 50px;
+  background-color: #efeff0;
+}
+
+.main-area-pc footer nav, .main-area-pc footer ul, .main-area-pc footer li {
+  list-style: none;
+}
+
+.main-area-pc .f-title {
+  font-size: 40px;
+  color: #222;
+  font-weight: bold;
+}
+
+.main-area-pc .f-ul {
+  color: #222;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-area-pc .f-li {
+  padding-left: 40px;
+}
+
+.main-area-pc .f-li:first-child {
+  padding-left: 0;
+}
+
+.main-area-pc .f-li:last-child {
+  padding-right: 50px;
+}
+
+.main-area-pc a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main-area-pc a:hover {
+  color: #aaa;
+}
+/*# sourceMappingURL=Footer.css.map */

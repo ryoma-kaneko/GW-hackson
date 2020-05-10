@@ -1,0 +1,52 @@
+.main-area-pc header {
+  height: 72px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  color: white;
+  z-index: 10;
+}
+
+.main-area-pc header.background-color-on {
+  background-color: white;
+  color: black;
+  -webkit-box-shadow: 0px -4px 12px 2px #999;
+          box-shadow: 0px -4px 12px 2px #999;
+}
+
+.main-area-pc header.display-on {
+  display: block;
+}
+
+.main-area-pc header.display-off {
+  display: none;
+}
+
+.main-area-pc header .content-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 48px;
+}
+
+.main-area-pc header .content-area .store-name-box {
+  line-height: 72px;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.main-area-pc header .content-area .nav-list-box .nav-box-item {
+  line-height: 72px;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0 12px;
+}
+
+.main-area-pc header .content-area .nav-list-box .nav-box-item:hover {
+  color: #aaa;
+}
+/*# sourceMappingURL=Header.css.map */

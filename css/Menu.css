@@ -1,0 +1,36 @@
+.main-area-pc .main-wrap {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.main-area-pc .main-wrap .menu-area {
+  background-color: #222;
+  padding: 0 48px 36px;
+}
+
+.main-area-pc .main-wrap .menu-area .menu-box .title-box {
+  text-align: center;
+}
+
+.main-area-pc .main-wrap .menu-area .menu-box .title-box .title {
+  font-size: 36pt;
+  color: #efeff0;
+  margin: 0;
+}
+
+.main-area-pc .main-wrap .menu-area .content-box {
+  background-color: #efeff1;
+  height: 240px;
+  width: 100%;
+  border-radius: 16px;
+}
+
+.main-area-pc .main-wrap .menu-area .content-box table {
+  margin: 0 auto;
+  padding-top: 5%;
+}
+
+.main-area-pc .main-wrap .menu-area .content-box th {
+  padding-right: 50px;
+}
+/*# sourceMappingURL=Menu.css.map */
